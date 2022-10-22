@@ -1,76 +1,39 @@
 # Import libraries
 import json
 import csv
-import requests
 
+# Create input field
+csv_name = input('Enter the name of .csv file: ')
 
-# open method for csv file to read
-with open('exp_tournesol_upcoming_onsales_202210141028.csv', 'r') as  f:
+def convert_csv_to_json(csv_name):
+    # open method for csv file to read
+    with open(csv_name, 'r') as  f:
     
-    # read csv file
-    reader = csv.reader(f)
-
-    # create empty dictionary for storing data
-    data = {"results":[]}
-
-    # go to next row in csv
-    next(reader)
-
-    # start looping reader object
-    for row in reader:
-        data["results"].append({"user_id": row[1]})
-
-
-# create empty dictonary for processed data
-processed_data = []
-
-# loop through object
-for i, d in enumerate(data["results"]):
-
-    # get user id
-    user_id = data['results'][i]['user_id']
-
-    # remove dupes
-    if user_id not in processed_data:
-        processed_data.append(user_id)
-
-
-working_users = []
-
-for i, id in enumerate(processed_data):
-
-    uid = processed_data[i]
-
+        # read csv file
+        reader = csv.reader(f)
     
-
-    api_request = 'https://api.dice.fm/linked-data/upcoming-onsales?uid=' + uid + '&partner=1&limit=7'
-    response =  requests.get(api_request)
-    status = response.status_code
-
-    # print(f'Api Request: {api_request}')
-    # print(f'status: {status}')
-    # print(f'response: {response.text}')
-
-    if status != 200 and response != '[]':
-        working_users.append(id)
+        # create empty dictionary for storing data
+        data = {"results":[]}
+    
+        # go to second row in csv
+        next(reader)
+    
+        # start looping reader object
+        for row in reader:
+            data["results"].append({"rota_id": row[1],"date": row[2],"shift_id": row[3]})
         
-        print('working user below')
-        print(f'User id: {uid}')
-        print(f'response: {response.text}')
-        print(f'status: {status}')
-        print(f'response: {response.text}')
-    else:
-        print('user IS NOT WORKING below')
-        print(f'User id: {uid}')
-        print(f'response: {response.text}')
-        print(f'status: {status}')
-        print(f'response: {response.text}')
+        print(data)
+        
 
-print(working_users)
+    # create new file to write so that results can be saved in a file
+    with open('rotas.json', 'w') as f:
+    
+    # dump data in the file and indent by 4
+        json.dump(data,f,indent=4)
 
 
-# create new file to write
-# with open('rotas.json', 'w') as f:
-     
-    #  dump data in the file and indent by 4
-    #  json.dump(data,f,indent=4)
+    print("conversion completed")
+
+
+
+convert_csv_to_json(csv_name)

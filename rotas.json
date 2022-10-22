@@ -1,82 +1,134 @@
 {
     "results": [
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0005"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0005"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0005"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0005"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0006"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0006"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0006"
         },
         {
-            "rota_id": "ro0001"
+            "rota_id": "ro0001",
+            "date": "2022-02-16",
+            "shift_id": "sh0006"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0007"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0007"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0007"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0007"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0008"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0008"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0008"
         },
         {
-            "rota_id": "ro0002"
+            "rota_id": "ro0002",
+            "date": "2022-02-17",
+            "shift_id": "sh0008"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0009"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0009"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0009"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0009"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0009"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0010"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0010"
         },
         {
-            "rota_id": "ro0003"
+            "rota_id": "ro0003",
+            "date": "2022-02-18",
+            "shift_id": "sh0010"
         },
         {
-            "rota_id": "ro0004"
+            "rota_id": "ro0004",
+            "date": "2022-02-19",
+            "shift_id": "sh0011"
         },
         {
-            "rota_id": "ro0004"
+            "rota_id": "ro0004",
+            "date": "2022-02-19",
+            "shift_id": "sh0011"
         }
     ]
 }
